@@ -1,0 +1,5 @@
+{
+    "phpserver.router": "",
+    "phpserver.browser": "chrome",
+    "phpserver.autoOpenOnReload": true
+}

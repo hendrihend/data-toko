@@ -1,0 +1,109 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+	background-color: black;
+	color: aliceblue;
+	padding: 1rem;
+}
+nav .nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+nav .nav ul {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+	width: 30%;
+	margin: 0.5rem;
+}
+nav .nav ul li a { 
+	text-decoration: none; 
+	color: aliceblue;
+}
+.content {
+	margin: 2rem;
+}
+.container .row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 5rem;
+	padding: 1rem;
+}
+.row.heading {
+	text-align: center;
+	justify-content: center;
+}
+.row .btn-tambah-data {
+	background-color: forestgreen;
+	border-radius: 1rem;
+	box-shadow: 0 0 3px 1px greenyellow;
+	transition: .3s;
+	padding: .7rem;
+	text-decoration: none;
+	color: aliceblue;
+}
+.row .btn-tambah-data:hover {
+	background-color: greenyellow;
+	box-shadow: 0 0 3px 1px forestgreen;
+	color: black;
+}
+
+.form-pencarian input[type=text] {
+	padding: .5rem;
+	border-radius: 1rem;
+	width: 50px;
+	transition: .5s;
+}
+.form-pencarian input[type=text]:focus {
+	width: 67.6%;
+}
+.form-pencarian .tombol-cari {
+	padding: .3rem;
+	border: navajowhite;
+	cursor: pointer;
+	border-radius: .3rem;
+	background-color: cadetblue;
+	color: aliceblue;
+	box-shadow: 0 0 3px 1px cadetblue;
+	transition: .3s;
+}
+.form-pencarian .tombol-cari:hover { background-color: rgb(22, 96, 99); }
+
+.row.table {
+	padding: 1rem;
+	background-color: white;
+	border-radius: 1rem;
+	box-shadow: 0 0 3px 1px black;
+}
+.row table {
+	width: 100%;
+	border-collapse: collapse;
+	border-radius: 1rem;
+}
+.row table, th, td { 
+	padding: .27em; 
+	border: 1px solid #ddd;
+}
+table th, td {padding: .7rem;}
+.row table .opsi li { 
+	text-align: center; 
+	margin: -.7rem;
+	cursor: pointer;
+}
+.row table td a img { width: 12pt; }
+
+footer {
+	background-color: black;
+	color: aliceblue;
+}
+footer p { margin: auto; }
+footer iframe {
+	border-radius: 1rem;
+	box-shadow: 0 0 3px 1px aliceblue;
+}
+
